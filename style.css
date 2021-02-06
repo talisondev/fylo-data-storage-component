@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: hsl(229, 57%, 11%) url("images/bg-desktop.png") no-repeat;
+    background-position: 0px 50vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    color: white;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-files {
+    background: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+    width: 250px;
+    padding: 30px;
+    margin-right: 15px;
+}
+
+.document,
+.upload,
+.folder {
+    
+    background: hsl(229, 57%, 11%);
+    margin: 0 5px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.document {
+    padding: 9px 12px;
+}
+
+.folder {
+
+    padding: 11px 10px;
+    border-radius: 4px;
+}
+
+.upload {
+
+    padding: 13px 10px;
+    border-radius: 4px;
+}
+
+.storage {
+    align-self: flex-end;
+    background: hsl(228, 56%, 26%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+.text {
+    margin-bottom: 10px;
+}
+::-webkit-progress-bar {
+    background: hsl(229, 57%, 11%);
+    padding: 3px;
+    border-radius: 15px;
+}
+
+::-webkit-progress-value {
+    background: linear-gradient(45deg, rgb(255, 163, 153), rgb(255, 77, 151));
+    border-radius: 15px;
+
+    
+}
